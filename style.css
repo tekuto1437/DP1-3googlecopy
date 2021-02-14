@@ -45,10 +45,11 @@ a {
 
 
 #main {
+    min-height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 75px 75px 150px;
-    grid-template-areas: 
+    grid-template-rows: 250px 75px 75px 250px;
+    grid-template-areas:
     ". logo ."
     ". search ."
     ". flexbox ."
@@ -57,14 +58,18 @@ a {
 
 #logo{
     grid-area: logo;
+    justify-self: center;
 }
 #search{
     grid-area: search;
+    height: 30px;
+    align-self: center;
 }
 
 #flexbox {
     display: flexbox;
     grid-area: flexbox;
+    justify-self: center;
 }
 #google-search-btn{
     grid-area: google-search-btn;
