@@ -80,8 +80,10 @@ a, p {
 }
 
 #footer {
+    position: absolute;
+    bottom: 0%;
     display: grid;
-    grid-template-columns: 100px 100px 100px 1fr 100px 100px 100px;
+    grid-template-columns: 100px 100px 150px 1200px 100px 100px 100px;
     grid-template-rows: 50px;
     grid-template-areas:
     "advertising business hsw . privacy terms settings";
