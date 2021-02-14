@@ -64,6 +64,8 @@ a, p {
     grid-area: search;
     height: 30px;
     align-self: center;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 
 #search:hover {
