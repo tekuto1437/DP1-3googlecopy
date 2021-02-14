@@ -66,6 +66,10 @@ a, p {
     align-self: center;
 }
 
+#search:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 #flexbox {
     display: flexbox;
     grid-area: flexbox;
