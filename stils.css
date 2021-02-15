@@ -88,6 +88,8 @@ a:hover{
     justify-self: center;
     border: 1px solid grey;
     border-radius: 30px;
+    outline: none;
+    padding-left: 20px;
 }
 
 #search:focus {
